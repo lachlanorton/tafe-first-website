@@ -1,0 +1,38 @@
+/* Comment in css */
+
+/* 
+NB: Easy way to comment ...
+Write a line, select and use CTRL + / 
+*/
+
+h1 {
+    text-decoration: overline;
+    padding: 10px;
+}
+
+body {
+    background-color: darkslategray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.subtitle {
+    text-decoration: underline;
+}
+
+.cars {
+    font-size: 18pt;
+    list-style-type: square;
+    background-color: black;
+    width: 400px;
+}
+
+
+.cars li:nth-child(5){
+    font-style: italic;
+} 
+
+.logo {
+    background-color: red;
+}
