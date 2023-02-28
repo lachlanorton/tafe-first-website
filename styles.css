@@ -5,16 +5,29 @@ NB: Easy way to comment ...
 Write a line, select and use CTRL + / 
 */
 
-h1 {
+.logo_img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.logo_heading {
+    background-color: red;
+    padding: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
     text-decoration: overline;
-    padding: 10px;
+}
+
+header {
+    background-color: black;
 }
 
 body {
     background-color: darkslategray;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
 }
 
 .subtitle {
@@ -33,6 +46,6 @@ body {
     font-style: italic;
 } 
 
-.logo {
-    background-color: red;
+footer {
+    text-align: center;
 }
